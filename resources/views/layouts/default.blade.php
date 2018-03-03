@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sample App</title>
+    <title>@yield('title', 'larblog')-陈帅同学博客</title>
 </head>
 <body>
 @yield('content')
