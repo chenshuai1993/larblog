@@ -11,4 +11,9 @@ class IndexController extends Controller
     {
         return view('index');
     }
+
+    public static function ccc()
+    {
+
+    }
 }
