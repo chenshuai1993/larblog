@@ -12,4 +12,14 @@ class StaticPagesController extends Controller
     {
         return view('static.home');
     }
+
+    public function help()
+    {
+        return view('static.help');
+    }
+
+    public function about()
+    {
+        return view('static.about');
+    }
 }
